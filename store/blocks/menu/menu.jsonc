@@ -1,0 +1,107 @@
+{
+    //Menú preheader
+    "vtex.menu@2.x:menu#top-left":{
+        "children":["menu-item#1", "menu-item#2"]
+    },
+    "vtex.menu@2.x:menu#top-right":{
+        "children":["menu-item#3", "menu-item#4"]
+    },
+    "menu-item#1":{
+        "props":{
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ayuda",
+                "tagTitle": "(+57) 300 300 3030",
+                "text": "(+57) 300 300 3030"
+            },
+            "iconProps": {
+                "id": "hpa-telemarketing",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "action-primary",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#2":{
+        "props":{
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ayuda",
+                "tagTitle": "carolina@carolina.com",
+                "text": "carolina@carolina.com"
+            },
+            "iconProps": {
+                "id": "mpa-edit--filled",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "action-primary",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#3":{
+        "props":{
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ayuda",
+                "tagTitle": "Store location",
+                "text": "Store location"
+            },
+            "iconProps": {
+                "id": "mpa-store",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "action-primary",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#4":{
+        "props":{
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ayuda",
+                "tagTitle": "Track your order",
+                "text": "Track your order"
+            },
+            "iconProps": {
+                "id": "mpa-location-input",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "action-primary",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+
+    //Menú main header
+    "vtex.menu@2.x:menu#mainheader":{
+        "children":[
+            "menu-item#5",
+            "menu-item#6"
+        ]
+    },
+    "menu-item#5":{
+        "props":{
+            "type": "category",
+            "highlight": true,
+            "categoryId": 1
+        }
+    },
+    "menu-item#6":{
+        "props":{
+            "type": "category",
+            "highlight": true,
+            "categoryId": 2
+        }
+    }
+}

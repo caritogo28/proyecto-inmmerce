@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#1-desktop":{
+        "children":["notification.bar"],
+        "props":{"fullWidth": true}
+    },
+    "flex-layout.row#2-desktop":{
+        "children":[
+            "flex-layout.col#topleft", 
+            "header-spacer", 
+            "flex-layout.col#topright"
+        ],
+        "props":{"fullWidth": true}
+    },
+    
+    "flex-layout.row#3-desktop": {
+        "props": {
+          "blockClass": "main-header",
+          "horizontalAlign": "center",
+          "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#logo-desktop", 
+            "flex-layout.col#menu-mainheader",
+            "flex-layout.col#search-desktop", 
+            "header-spacer",
+            "flex-layout.col#login", 
+            "flex-layout.col#minicart"
+        ]
+    },
+
+    "notification.bar":{
+        "props":{
+            "content": "¡Hola a todos! Bienvenidos a mi tienda =D"
+        }
+    },
+
+    "flex-layout.col#topleft":{
+        "children":["vtex.menu@2.x:menu#top-left"],
+        "props":{
+            "horizontalAlign": "left"
+        }
+    },
+    "flex-layout.col#topright":{
+        "children":["vtex.menu@2.x:menu#top-right"],
+        "props":{
+            "horizontalAlign": "right"
+        }
+    },
+    //Logo
+    "flex-layout.col#logo-desktop": {
+        "children": ["logo#desktop"]
+    },
+    "logo#desktop": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+            "width": "180"
+        }
+    },
+    //Buscador
+    "flex-layout.col#search-desktop": {
+        "children": ["search-bar"]
+    },
+    "search-bar": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
+    },
+    //Login
+    "flex-layout.col#login": {
+        "children": ["login"]
+    },
+    "login": {
+        "props": {
+            "emailPlaceholder": "tu e-mail",
+            "passwordPlaceholder": "tu contraseña",
+            "showPasswordVerificationIntoTooltip": false
+        }
+    },
+    //minicart
+    "flex-layout.col#minicart": {
+        "children": ["minicart.v2"]
+    },
+    "flex-layout.col#menu-mainheader": {
+        "children":["vtex.menu@2.x:menu#mainheader"]
+    }
+}

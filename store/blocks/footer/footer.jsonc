@@ -1,0 +1,67 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.col#socialnetworks",
+      "flex-layout.col#copyright",
+      "flex-layout.col#acceptedpaymentmethods"
+    ],
+    "props":{"fullWidth": true}
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "flex-layout.col#socialnetworks",
+      "flex-layout.col#copyright",
+      "flex-layout.col#acceptedpaymentmethods"
+    ]
+  },
+  "flex-layout.col#socialnetworks": {
+    "children": ["social-networks"],
+    "props":{"horizontalAlign": "left"}
+  },
+  "flex-layout.col#copyright": {
+    "children": ["rich-text#copyright"]
+  },
+  "flex-layout.col#acceptedpaymentmethods": {
+    "children": ["accepted-payment-methods"],
+    "props":{"horizontalAlign": "right"}
+  },
+  //Redes sociales
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://twitter.com/foo", "name": "Twitter" },
+        { "url": "https://twitter.com/foo", "name": "Facebook" },
+        { "url": "https://twitter.com/foo", "name": "Linkedin" },
+        { "url": "https://twitter.com/foo", "name": "Youtube" },
+        { "url": "https://twitter.com/foo", "name": "Pinterest" }
+      ],
+      "showInColor": true
+    }
+  },
+  //Pagos aceptados
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"],
+      "showInColor": true
+    }
+  },
+  "rich-text#copyright": {
+    "props": {
+      "text": "© Copyright 2022 Carolina Gómez. Todos los Derechos Reservados.",
+      "textAlignment": "CENTER"
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "store.custom#store-location": {
+    "blocks": [
+      "flex-layout.row#store-location"
+    ]
+  },
+
+  "flex-layout.row#store-location": {
+    "children": [
+      "flex-layout.col#store-location"
+    ],
+    "props": {
+      "blockClass": "container-text-store"
+    }
+  },
+
+  "flex-layout.col#store-location": {
+    "props":{
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#title-tiendas",
+      "flex-layout.row#tiendas-container"
+    ]
+  },
+
+  "rich-text#title-tiendas": {
+    "props": {
+      "text":"NUESTRAS TIENDAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "title-store",
+      "font": "t-heading-1"
+    }
+  },
+
+  "flex-layout.row#tiendas-container": {
+    "children": [
+      "flex-layout.col#tiendas-container-left",
+      "flex-layout.col#tiendas-container-right"
+    ],
+    "props": {
+      "blockClass": "container-tiendas",
+      "horizontalAlign": "between"
+    }
+  },
+
+  "flex-layout.col#tiendas-container-left": {
+    "props":{
+      "horizontalAlign": "left",
+      "width": "45%"
+    },
+    "children": [
+      "disclosure-layout-group#TiendasLeft"
+    ]
+  },
+
+  "flex-layout.col#tiendas-container-right": {
+    "props":{
+      "horizontalAlign": "left",
+      "width": "45%"
+    },
+    "children": [
+      "disclosure-layout-group#TiendasRight"
+    ]
+  },
+
+  "disclosure-layout-group#TiendasLeft":{
+    "children": [
+        "disclosure-layout#tienda1",
+        "disclosure-layout#tienda2",
+        "disclosure-layout#tienda3"
+    ]
+  },
+  "disclosure-layout-group#TiendasRight":{
+    "children": [
+        "disclosure-layout#tienda4",
+        "disclosure-layout#tienda5",
+        "disclosure-layout#tienda6"
+    ]
+  },
+  "disclosure-layout#tienda1": {
+      "children": ["disclosure-trigger#tienda1", "disclosure-content#tienda1"],
+      "props":{
+          "blockClass":"tienda-container"
+      }
+  },
+  "disclosure-trigger#tienda1": {
+      "children": ["rich-text#tienda1"],
+      "props":{
+          "blockClass":"tiendaText"
+      }
+  },
+  "disclosure-content#tienda1": {
+      "children": ["rich-text#tiendaAnswer1"],
+      "props":{
+          "blockClass":"tiendaContainerText"
+      }
+  },
+  "rich-text#tienda1": {
+      "props": {
+        "text": "ANTIOQUIA"
+      }
+  },
+  "rich-text#tiendaAnswer1": {
+      "props": {
+        "text": "### Tienda: Medellín \n **Teléfono:** 3003030\n **Dirección:** Calle 1 #44-444 Local 305 \n ### Tienda: Envigado \n **Teléfono**: 3800000 \n **Dirección:** Calle 9 #90-90 Local 100"
+      }
+  },
+
+  "disclosure-layout#tienda2": {
+    "children": ["disclosure-trigger#tienda2", "disclosure-content#tienda2"],
+    "props":{
+        "blockClass":"tienda-container"
+    }
+  },
+  "disclosure-trigger#tienda2": {
+      "children": ["rich-text#tienda2"],
+      "props":{
+          "blockClass":"tiendaText"
+      }
+  },
+  "disclosure-content#tienda2": {
+      "children": ["rich-text#tiendaAnswer2"],
+      "props":{
+          "blockClass":"tiendaContainerText"
+      }
+  },
+  "rich-text#tienda2": {
+      "props": {
+        "text": "BOGOTÁ"
+      }
+  },
+  "rich-text#tiendaAnswer2": {
+      "props": {
+        "text": "### Tienda: Bogotá 1 \n **Teléfono:** 3003030\n **Dirección:** Calle 1 #44-444 Local 305 \n ### Tienda: Bogotá 2 \n **Teléfono**: 3800000 \n **Dirección:** Calle 9 #90-90 Local 100"
+      }
+  },
+
+  "disclosure-layout#tienda3": {
+    "children": ["disclosure-trigger#tienda3", "disclosure-content#tienda3"],
+    "props":{
+        "blockClass":"tienda-container"
+    }
+  },
+  "disclosure-trigger#tienda3": {
+      "children": ["rich-text#tienda3"],
+      "props":{
+          "blockClass":"tiendaText"
+      }
+  },
+  "disclosure-content#tienda3": {
+      "children": ["rich-text#tiendaAnswer3"],
+      "props":{
+          "blockClass":"tiendaContainerText"
+      }
+  },
+  "rich-text#tienda3": {
+      "props": {
+        "text": "CALI"
+      }
+  },
+  "rich-text#tiendaAnswer3": {
+      "props": {
+        "text": "### Tienda: Cali 1 \n **Teléfono:** 3003030\n **Dirección:** Calle 1 #44-444 Local 305 \n ### Tienda: Cali 2 \n **Teléfono**: 3800000 \n **Dirección:** Calle 9 #90-90 Local 100"
+      }
+  },
+
+  "disclosure-layout#tienda4": {
+    "children": ["disclosure-trigger#tienda4", "disclosure-content#tienda4"],
+    "props":{
+        "blockClass":"tienda-container"
+    }
+  },
+  "disclosure-trigger#tienda4": {
+    "children": ["rich-text#tienda4"],
+    "props":{
+        "blockClass":"tiendaText"
+    }
+  },
+  "disclosure-content#tienda4": {
+    "children": ["rich-text#tiendaAnswer4"],
+    "props":{
+        "blockClass":"tiendaContainerText"
+    }
+  },
+  "rich-text#tienda4": {
+    "props": {
+      "text": "BARRANQUILLA"
+    }
+  },
+  "rich-text#tiendaAnswer4": {
+    "props": {
+      "text": "### Tienda: Barranquilla 1 \n **Teléfono:** 3003030\n **Dirección:** Calle 1 #44-444 Local 305 \n ### Tienda: Barranquilla 2 \n **Teléfono**: 3800000 \n **Dirección:** Calle 9 #90-90 Local 100"    }
+  },
+  
+  "disclosure-layout#tienda5": {
+    "children": ["disclosure-trigger#tienda5", "disclosure-content#tienda5"],
+    "props":{
+        "blockClass":"tienda-container"
+    }
+  },
+  "disclosure-trigger#tienda5": {
+      "children": ["rich-text#tienda5"],
+      "props":{
+          "blockClass":"tiendaText"
+      }
+  },
+  "disclosure-content#tienda5": {
+      "children": ["rich-text#tiendaAnswer5"],
+      "props":{
+          "blockClass":"tiendaContainerText"
+      }
+  },
+  "rich-text#tienda5": {
+      "props": {
+        "text": "CARTAGENA"
+      }
+  },
+  "rich-text#tiendaAnswer5": {
+      "props": {
+        "text": "### Tienda: Cartagena 1 \n **Teléfono:** 3003030\n **Dirección:** Calle 1 #44-444 Local 305 \n ### Tienda: Cartagena 2 \n **Teléfono**: 3800000 \n **Dirección:** Calle 9 #90-90 Local 100"      }
+  },
+  
+  "disclosure-layout#tienda6": {
+    "children": ["disclosure-trigger#tienda6", "disclosure-content#tienda6"],
+    "props":{
+        "blockClass":"tienda-container"
+    }
+  },
+  "disclosure-trigger#tienda6": {
+      "children": ["rich-text#tienda6"],
+      "props":{
+          "blockClass":"tiendaText"
+      }
+  },
+  "disclosure-content#tienda6": {
+      "children": ["rich-text#tiendaAnswer6"],
+      "props":{
+          "blockClass":"tiendaContainerText"
+      }
+  },
+  "rich-text#tienda6": {
+      "props": {
+        "text": "BUCARAMANGA"
+      }
+  },
+  "rich-text#tiendaAnswer6": {
+      "props": {
+        "text": "### Tienda: Bucaramanga 1 \n **Teléfono:** 3003030\n **Dirección:** Calle 1 #44-444 Local 305 \n ### Tienda: Bucaramanga 2 \n **Teléfono**: 3800000 \n **Dirección:** Calle 9 #90-90 Local 100"      }
+  }    
+}

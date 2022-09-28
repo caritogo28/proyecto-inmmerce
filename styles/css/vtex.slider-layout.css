@@ -3,3 +3,6 @@
     border-radius: 50%;
     padding: 6px;
 }
+.sliderLayoutContainer--carousel {
+    margin-bottom: 30px;
+}

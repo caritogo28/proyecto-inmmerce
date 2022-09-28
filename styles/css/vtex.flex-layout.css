@@ -8,3 +8,12 @@
         justify-content: space-around;
     }
 }
+
+.flexRow--deals {
+    max-width: 90%;
+    margin: 0 auto 10px;
+}
+.flexRow--deals .flexCol {
+    display: flex;
+    align-items: center;
+}

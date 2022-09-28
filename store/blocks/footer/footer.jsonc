@@ -29,14 +29,20 @@
   },
   "flex-layout.col#socialnetworks": {
     "children": ["social-networks"],
-    "props":{"horizontalAlign": "left"}
+    "props":{
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    }
   },
   "flex-layout.col#copyright": {
     "children": ["rich-text#copyright"]
   },
   "flex-layout.col#acceptedpaymentmethods": {
     "children": ["accepted-payment-methods"],
-    "props":{"horizontalAlign": "right"}
+    "props":{
+      "horizontalAlign": "right",
+      "verticalAlign": "middle"
+    }
   },
   //Redes sociales
   "social-networks": {
@@ -60,7 +66,7 @@
   },
   "rich-text#copyright": {
     "props": {
-      "text": "© Copyright 2022 Carolina Gómez. Todos los Derechos Reservados.",
+      "text": "© Copyright 2022 Carolina Gómez.\n Todos los Derechos Reservados.",
       "textAlignment": "CENTER"
     }
   }

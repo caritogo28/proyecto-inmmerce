@@ -1,0 +1,10 @@
+.flexRowContent--main-header {
+    background-color: black;
+    color: #fff;
+}
+@media screen and (max-width: 40em) {
+    .flexRowContent--main-header {
+        padding: 0 10px;
+        justify-content: space-around;
+    }
+}

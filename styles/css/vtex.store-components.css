@@ -27,3 +27,25 @@
 .searchIcon {
     color: #fff;
 }
+.infoCardTextContainer--info-card-home {
+    padding-left: 5%;
+}
+.buttonContainer :global(.vtex-button){
+    border-radius: 0;
+    text-transform: none;
+}
+.inputGroup :global(.vtex-input-prefix__group) {
+    border-radius: 0;
+    border: 1px solid #000;
+}
+.inputGroup :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #000;
+}
+.infoCardCallActionContainer :global(.vtex-button) {
+    border-radius: 0;
+}
+@media screen and (max-width: 40em) {
+    .infoCardTextContainer--info-card-home {
+        align-items: center;
+    }
+}

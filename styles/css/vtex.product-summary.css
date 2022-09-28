@@ -4,7 +4,7 @@
 .container :global(.vtex-button) {
     border-radius: 0;
 }
-.container :global(.vtex-add-to-cart-button-0-x-buttonText) {
+.container :global(.vtex-add-to-cart-button-0-x-buttonText), .buyButtonText {
     font-size: 16px;
     text-transform: none;
 }

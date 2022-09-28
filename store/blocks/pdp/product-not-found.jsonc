@@ -1,0 +1,14 @@
+{
+    "store.not-found#product": {
+        "blocks": ["rich-text#not-found"]
+    },
+    "rich-text#not-found": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**¡Lo sentimos!** \n Este producto actualmente no está disponible.",
+            "font": "t-heading-1",
+            "blockClass": "not-found-text"
+        }
+    }
+}

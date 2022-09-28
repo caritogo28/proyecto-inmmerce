@@ -97,14 +97,14 @@
         "props":{
             "type": "category",
             "highlight": true,
-            "categoryId": 1
+            "categoryId": 4
         }
     },
     "menu-item#6":{
         "props":{
             "type": "category",
             "highlight": true,
-            "categoryId": 2
+            "categoryId": 1
         }
     }
 }

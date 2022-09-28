@@ -49,3 +49,11 @@
         align-items: center;
     }
 }
+.shareLabel {
+    color: #000;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.imageElement--carousel {
+    max-height: none !important;
+}

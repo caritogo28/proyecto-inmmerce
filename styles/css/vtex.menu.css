@@ -1,0 +1,14 @@
+.menuContainer--menu-header .styledLink {
+    color: #fff;
+}
+.styledLinkContainer {
+    padding-bottom: 0.5rem;
+}
+@media screen and (max-width: 40em) {
+    .menuContainer--menu-header {
+        justify-content: center;
+    }
+    .styledLinkContainer {
+        padding: 0;
+    }
+}

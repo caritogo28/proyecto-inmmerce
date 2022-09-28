@@ -1,0 +1,29 @@
+.notificationBarInner {
+    min-height: 2rem;
+}
+.logoLink {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+}
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #fff;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    height: 32px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+}
+.searchBarContainer :global(.vtex-input__suffix) {
+    background-color: #000;
+    border: 0;
+}
+.searchIcon {
+    color: #fff;
+}

@@ -5,7 +5,8 @@
       "flex-layout.row#deals",
       "flex-layout.row#shelf",
       "flex-layout.row#newsletter",
-      "flex-layout.row#infocardhome"
+      "flex-layout.row#infocardhome",
+      "flex-layout.row#helloworldcustom"
     ]
   },
   //Banner principal
@@ -99,5 +100,11 @@
       "blockClass": "info-card-home",
       "textAlignment": "left"
     }
+  },
+  //Componente custom Helloworld
+  "flex-layout.row#helloworldcustom": {
+    "children":[
+      "helloworld"
+    ]
   }
 }

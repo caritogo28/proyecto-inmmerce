@@ -1,10 +1,12 @@
 {
     //Menú preheader
     "vtex.menu@2.x:menu#top-left":{
-        "children":["menu-item#1", "menu-item#2"]
+        "children":["menu-item#1", "menu-item#2"],
+        "props":{"blockClass": "menu-header"}
     },
     "vtex.menu@2.x:menu#top-right":{
-        "children":["menu-item#3", "menu-item#4"]
+        "children":["menu-item#3", "menu-item#4"],
+        "props":{"blockClass": "menu-header"}
     },
     "menu-item#1":{
         "props":{
@@ -88,7 +90,8 @@
         "children":[
             "menu-item#5",
             "menu-item#6"
-        ]
+        ],
+        "props":{"blockClass": "menu-header"}
     },
     "menu-item#5":{
         "props":{

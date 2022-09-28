@@ -1,0 +1,24 @@
+.wrapper--not-found-text {
+    font-size: 2rem;
+}
+.wrapper--not-found-text .strong {
+    font-size: 3rem;
+}
+@media screen and (max-width: 40em) {
+    .wrapper--not-found-text {
+        font-size: 1.5rem;
+        line-height: 1rem;
+    }
+    .wrapper--not-found-text .strong {
+        font-size: 2rem;
+    }  
+}
+.paragraph--404-titulo {
+    margin: 0.5rem 0.5rem 0;
+}
+@media screen and (max-width: 40em) {
+    .paragraph--404-titulo {
+        line-height: 1;
+        margin-top: 40px;
+    }
+}

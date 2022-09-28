@@ -20,3 +20,7 @@
 .flexRowContent--result-container {
     justify-content: center;
 }
+.flexRow--container-tiendas {
+    width: 90%;
+    margin: 0 auto;
+}
